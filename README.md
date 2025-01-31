@@ -25,6 +25,6 @@ Before running the project, ensure you have the following installed:
 
 ## Running the app
 
-**Backend**: npm run start
-**Frontend**: npm start
-**Backend Test**: npm run test
+- **Backend**: npm run start
+- **Frontend**: npm start
+- **Backend Test**: npm run test
