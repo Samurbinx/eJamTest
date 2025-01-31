@@ -7,14 +7,14 @@ import { Superhero } from './interfaces/superhero.interface';
 export class SuperheroesController {
    constructor(private superheroesService: SuperheroesService) {}
    
-   @Get()
+   @Get() // HTTP GET request to fetch all superheroes
    async getAll(): Promise<Superhero[]> {
-      return this.superheroesService.getAll();
+      return this.superheroesService.getAll(); // Fetching all superheroes from the service
    }
 
-   @Post()
+   @Post() // HTTP POST request to add a new superhero
    async add(@Body() superheroDto: superheroDto) {
-      this.superheroesService.add(superheroDto);
+      this.superheroesService.add(superheroDto); // Adding the new superhero through the service
    }
   
 
