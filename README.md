@@ -28,3 +28,11 @@ Before running the project, ensure you have the following installed:
 - **Backend**: npm run start
 - **Frontend**: npm start
 - **Backend Test**: npm run test
+
+---
+
+## Team Plater Attitude
+If I worked with a teammate on this project, I’d make sure we communicate well and I’d be open to feedback and always ready to help with any part of the code if needed.
+
+## Eagerness to Learn
+If I had more time, I’d probably try to add a real database instead of using an in-memory one, because it would make it better for the future.
